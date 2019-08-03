@@ -1,0 +1,93 @@
+html {
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+
+}
+h1, h2, h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    color: #2161E4; 
+}
+h1 {
+    font-size: 75px;
+    line-height: 1.25em;
+}
+a {
+    cursor: pointer;
+}
+
+#header {
+    padding: 5px;
+    background-color: white;
+}
+
+
+#contactButton {
+    border: #2161E4 3px solid;
+    border-radius: 25px;
+    color: #2161E4;
+    background: white;
+    float: right;
+    padding: 13px 35px;
+    font-size: 13px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#contactButton:hover {
+    background-color:#2161E4;
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+#contactButton:active {
+    transition-duration: 3s;
+}
+
+div {
+    background-color: whitesmoke;
+    border: white 5px;
+    margin: 5px;
+    padding: 5px;
+    align-content: center;
+    
+}
+a {
+    padding: 10px;
+}
+p {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    line-height: 2.3em;
+}
+#navigation {
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+#intro{
+
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#footer {
+    float: center;
+}
+
+#socialMedia {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.serviceImage, .serviceDescription {
+    width: 50%;
+    padding: 0px;
+
+}

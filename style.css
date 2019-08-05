@@ -8,6 +8,7 @@ h1, h2, h3{
     text-align: center;
     font-weight: 300;
     color: #2161E4; 
+    padding-top: 2em;
 }
 h1 {
     font-size: 75px;
@@ -125,3 +126,11 @@ p {
     width: 40%;
     line-height: 2em;
     }
+
+#imageGrid {
+    width: 60%;
+    margin: auto;
+}
+#imageGrid img {
+padding: auto;
+}

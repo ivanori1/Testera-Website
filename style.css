@@ -18,10 +18,6 @@ a {
     cursor: pointer;
 }
 
-#header {
-    padding: 5px;
-    background-color: white;
-}
 
 
 #contactButton {
@@ -61,19 +57,7 @@ p {
     width: 70%;
     line-height: 2.3em;
 }
-#navigation {
 
-    padding-bottom: 10px;
-    padding-top: 10px;
-    border-bottom: white 2px;
-
-}
-
-#intro{
-
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
 
 #footer {
     float: center;
@@ -117,13 +101,19 @@ p {
     padding-bottom: 8%;
 }
 
+.serviceDescription ul {
+    margin: auto;
+    width: 60%;
+    
+}
+
 .serviceDescription li{
     float: left;
     text-align: left;
     font-size: 23px;
     font-weight: 400;
     margin: auto;
-    width: 40%;
+    width: 50%;
     line-height: 2em;
     }
 
@@ -134,3 +124,8 @@ p {
 #imageGrid img {
 padding: auto;
 }
+
+.serviceImage {
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;}
